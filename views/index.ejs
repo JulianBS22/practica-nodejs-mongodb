@@ -9,7 +9,7 @@
     <p>Welcome to <%= title %></p>
 
     <h2>Lista de anuncios</h2>
-    <% Anuncio.forEach(anuncio => { %>
+    <% anuncios.forEach(anuncio => { %>
       <p>Anuncio <%= anuncio.nombre %> tiene <%=anuncio.precio %> €</p>
     <% }) %>
 

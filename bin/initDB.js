@@ -1,6 +1,6 @@
 'use strict';
 
-const Anuncio = require('../models/Anuncio');
+const Anuncio = require('../models/anuncio');
 const connection = require('../lib/connectMongoose');
 
 main().catch(err => console.log('Hubo un error', err));
