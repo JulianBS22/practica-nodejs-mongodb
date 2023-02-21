@@ -6,13 +6,13 @@ const logger = require('morgan');
 
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
-const anunciosAPIRouter = require('./routes/api/anuncios');
+const anunciosAPIRouter = require('./routes/api/Anuncios');
 const { connect } = require('./lib/connectMongoose');
 
 const app = express();
 
 // Conexión a la base de datos
-connect();
+//connect();
 
 // Configuración del motor de plantillas
 app.set('views', path.join(__dirname, 'views'));
@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Rutas del API de anuncios
-app.use('/api/anuncios', anunciosAPIRouter);
+app.use('/api/Anuncios', anunciosAPIRouter);
 
 // Rutas del sitio web
 app.use('/', indexRouter);

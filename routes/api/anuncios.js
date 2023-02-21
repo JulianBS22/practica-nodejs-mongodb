@@ -1,6 +1,7 @@
 const express = require('express');
+const { routes, render } = require('../../app');
 const router = express.Router();
-const Anuncio = require('../../models/anuncio');
+const Anuncio = require('../../models/Anuncio');
 
 //GET Api anuncios
 
@@ -48,3 +49,5 @@ router.get('/', async (req, res, next) => {
     next(error);
   }
 });
+
+module.exports = router;
