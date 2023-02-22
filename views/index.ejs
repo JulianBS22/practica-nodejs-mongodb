@@ -16,7 +16,7 @@
             <p>Descripción: <%= anuncio.descripcion %></p>
             <p>Venta: <%= anuncio.venta %></p>
             <p>Precio: <%= anuncio.precio %> €</p>
-            <img src="<%= anuncio.foto %>"/>
+            <img src='images/<%= anuncio.foto %>' />
             <p>Tags: <% anuncio.tags.forEach(tag => { %>
               <%= tag %>
             <% }) %></p>

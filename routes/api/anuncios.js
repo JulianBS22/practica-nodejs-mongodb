@@ -25,7 +25,7 @@ router.get('/', async (req, res, next) => {
     const filtro = {};
 
     if (filterByName) {
-      filtro.nombre = filterByName;
+      filtro.nombre = new RegExp('^' + filterByName);
     }
 
     if (filterByPrecio) {
@@ -44,7 +44,7 @@ router.get('/', async (req, res, next) => {
     const anuncios = await Anuncio.lista(filtro, skip, limit, sort, fields);
 
     res.json({ results: anuncios });
-
+    
   } catch (error) {
     next(error);
   }

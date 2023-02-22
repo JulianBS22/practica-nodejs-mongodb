@@ -29,7 +29,7 @@ async function initAnuncio() {
       "descripcion": "Una magnífica bicicleta de montaña apenas sin uso.",
       "venta": true,
       "precio": 230,
-      "foto": "public\images\ventabici.jpg",
+      "foto": "bici.jpg",
       "tags": [ "lifestyle", "motor"]
       },
       {
@@ -37,7 +37,7 @@ async function initAnuncio() {
       "descripcion": "Busco un Iphone a buen precio que no tenga la pantalla demasiado arañada.",    
       "venta": false,
       "precio": 50.00,
-      "foto": "public\images\ifons-l400.jpg",
+      "foto": "iphone.jpg",
       "tags": [ "lifestyle", "mobile"]
       },
       {
@@ -45,7 +45,7 @@ async function initAnuncio() {
       "descripcion": "Una réplica de este famoso personaje de Super Mario. Ideal para coleccionistas.",
       "venta": true,
       "precio": 25,
-      "foto": "public\images\figuras-estilo-super-mario-peach.jpg",
+      "foto": "ppeach.jpg",
       "tags": [ "lifestyle"]
       },
       {
@@ -53,7 +53,7 @@ async function initAnuncio() {
       "descripcion": "Por cese de empresa, vendo este pack de herramientas. Urge.",    
       "venta": true,
       "precio": 45,
-      "foto": "public\images\wera-2go-h-1-juego-de-herramientas-para-trabajos-en-madera.jpg",
+      "foto": "herramientas.jpg",
       "tags": [ "work"]
       },
       {
@@ -61,7 +61,7 @@ async function initAnuncio() {
       "descripcion": "Busco una maquinilla eléctrica para peluquería de caballero.",
       "venta": false,
       "precio": 65,
-      "foto": "public\images\maquina afeitar.jpg",
+      "foto": "maquinilla.jpg",
       "tags": [ "lifestyle", "work"]
       },
       {
@@ -69,7 +69,7 @@ async function initAnuncio() {
       "descripcion": "Se venden cargadores de teléfono Samsung para todas sus versiones. ¡Pregúntame por la tuya!",    
       "venta": true,
       "precio": 15,
-      "foto": "public\images\samsung viejo.jpg",
+      "foto": "samsung.jpg",
       "tags": [ "lifestyle", "mobile"]
       }
   ]);
